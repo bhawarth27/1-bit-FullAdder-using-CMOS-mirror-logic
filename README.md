@@ -29,7 +29,7 @@ eSim is an open source EDA tool for circuit design, simulation, analysis and PCB
 More details about this can be found [here](https://github.com/google/skywater-pdk)
 # Schematic Diagram
 ![image](https://user-images.githubusercontent.com/35188692/153365348-d2fc4588-18de-438f-b387-e1efa6ba9f0b.png)
-
+# Spice file
 Modified Spice Netlist for write operation with Sky130 models, here `sky130_fd_pr__pfet_01v8` represents P channel mosfet and `sky130_fd_pr__nfet_01v8` represents N channel mosfets.
 
 ```
@@ -85,7 +85,7 @@ plot v(b)
  .endc
  .end
 ```
-# Spice simulation results
+# Spice simulation waveforms
 ![image](https://user-images.githubusercontent.com/35188692/153391916-e97391bf-1990-4caf-86f4-c27217d8b29e.png)
 # References
 * [S. dhanjal 1-bit full adder transistor level implementation using cmos mirror logic](https://youtu.be/BflzLRjsECM.)
