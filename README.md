@@ -70,3 +70,11 @@ plot v(b)
  .endc
  .end
 ```
+# Spice simulation results
+![image](https://user-images.githubusercontent.com/35188692/153391916-e97391bf-1990-4caf-86f4-c27217d8b29e.png)
+# References
+
+# Acknowledgement
+[Kunal Ghosh](https://github.com/kunalg123),Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd
+# Author
+[Bhawarth Gupta](https://github.com/bhawarth27),Final year B.tech(ECE) from Bharati Vidyapeeth(Deemed University) College of Engineering,Pune
