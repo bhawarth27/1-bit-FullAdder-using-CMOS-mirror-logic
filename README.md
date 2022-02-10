@@ -1,6 +1,14 @@
 # Design of 1-bit FullAdder using SkyWater 130nm technology
 The purpose of this Project is to implement the design of 1-bit CMOS FullAdder using eSim (An open-source Electronic Design Automation tool designed by FOSSEE Project team of Indian Institute of Technology Bombay) and SkyWater 130nm PDKs (Process Design Kit) sponsored by Google.
 # Table of Contents:
+-[Introduction](#Google-SkyWater-130nm-PDK)
+* [Reference Circuit Diagram]()
+* [Description]()
+* [eSim EDA tool]()
+-[Google SkyWater 130nm](#Google-SkyWater-130nm-PDK)
+* [Schematic Diagram]()
+* [Spice file]() 
+* [Spice simulation waveforms]()
 # Introduction
 This design here presents 1-bit full adder cell designed by using cmos mirror technique. Full adder circuit is one of the most widely used building block in all arithmetic and digital data processing systems. This circuit accepts two 1-bit inputs and produce two 1-bit outputs i.e. sum and cout. We use property of inversion and self-duality to design this circuit. Because nowadays we have to deal with huge bits of data, we can switch to more advanced adder architectures like RIPPLE CARRY, CARRY SKIP, CARRY SELECT, CARRY LOOK AHEAD etc
 # Reference Circuit Diagram
