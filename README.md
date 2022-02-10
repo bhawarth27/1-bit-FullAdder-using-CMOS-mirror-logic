@@ -21,7 +21,9 @@ eSim is an open source EDA tool for circuit design, simulation, analysis and PCB
 More details about this can be found [here](https://github.com/google/skywater-pdk)
 # Schematic Diagram
 ![image](https://user-images.githubusercontent.com/35188692/153365348-d2fc4588-18de-438f-b387-e1efa6ba9f0b.png)
+
 Modified Spice Netlist for write operation with Sky130 models, here `sky130_fd_pr__pfet_01v8` represents P channel mosfet and `sky130_fd_pr__nfet_01v8` represents N channel mosfets.
+
 ```
 * /home/bhawarth/esim-workspace/attempt_1/attempt_1.cir
  .lib "sky130_fd_pr/models/sky130.lib.spice" tt
