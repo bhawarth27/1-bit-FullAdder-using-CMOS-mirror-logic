@@ -9,8 +9,13 @@ This design here presents 1-bit full adder cell designed by using cmos mirror te
 Transistor level implementation of full adder using cmos mirror logic uses 28 transistors out of which 14 are nmos and 14 are pmos. By using cmos mirror design we can save area of 12 transistors as compared to conventional cmos approach. If a function obeys both inversion and self-duality properties than we can mirror the nmos stack to pmos i.e. pull-up stack is symmetrical to pull-down, unlike opposite to pull-down stack in conventional cmos. By this approach we can reduce pmos stack size and can have equal rise andfall delays. Instead of realizing two functions independently we will use cout signal to generate sum signal. The fulladder circuit presented in this paper can be further used as a building block to generate a N-bit adder, which accepts two n-bit inputs and produces n-bit sum. One such adder architecture is known as ripple carry adder where these fulladder blocks are cascaded one after the other. Each fulladder in this architecture produces 1-bit sum and pass the carry to the subsequent full adder. In this way carry ripples through each of the full adder stages. Speed of this carry rippling through each stages define the speed of the adder.Nowadays there are some advance static cmos techniques like-CPL, TG, GDI etc., to design a high speed and low power consumption full adder but tuning the circuit alone is not the feasible solution as we have to deal with huge bits of data at a time. In this case optimizing the architecture of the adder circuit can come in handy.
 # eSim EDA Tool
 eSim is an open source EDA tool for circuit design, simulation, analysis and PCB design, developed by FOSSEE Team at IIT Bombay. It is an integrated tool build using open source softwares such as KiCad, Ngspice and GHDL
+![image](https://user-images.githubusercontent.com/35188692/153397471-a5abe291-2f7e-4664-9ce9-9fbc967e8212.png)
 # Features:
 * An open-source EDA tool
+* Perform Circuit Design.
+* Perform Simulation.
+* Perform Layout Design.
+* Model builder and Subcircuit builder.
 # Google SkyWater 130nm PDK
 ![image](https://user-images.githubusercontent.com/35188692/153363448-8f46a3ac-9dc2-4ad1-a9e0-0840cbb045d2.png)
 More details about this can be found [here](https://github.com/google/skywater-pdk)
@@ -73,8 +78,10 @@ plot v(b)
 # Spice simulation results
 ![image](https://user-images.githubusercontent.com/35188692/153391916-e97391bf-1990-4caf-86f4-c27217d8b29e.png)
 # References
-
+* [S. dhanjal 1-bit full adder transistor level implementation using cmos mirror logic](https://youtu.be/BflzLRjsECM.)
+* [R. S. S. K. S. A. Vinod Agarawal. Performance and analysis of 28t full adder using svl technique for reducing leakage current at 45 nm technology](http://www.iosrjournals.org/iosr[1]jvlsi/papers/vol5-issue4/Version-1/F05413742.pdf.)
+* Sung-Mo-Kang and Y. Leblebici. combinational mos logic circuit. Book- Cmos digital integrated circuit analysis and design.
 # Acknowledgement
 [Kunal Ghosh](https://github.com/kunalg123),Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd
 # Author
-[Bhawarth Gupta](https://github.com/bhawarth27),Final year B.tech(ECE) from Bharati Vidyapeeth(Deemed University) College of Engineering,Pune
+[Bhawarth Gupta](https://github.com/bhawarth27),Final year B.tech(ECE) from Bharati Vidyapeeth (Deemed University) College of Engineering,Pune
